@@ -1,7 +1,7 @@
 {
   "name": "infolelang-mobile",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,14 +9,22 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "expo": "~49.0.15",
+    "expo-font": "~11.4.0",
+    "expo-splash-screen": "~0.20.5",
     "expo-status-bar": "~1.6.0",
+    "nativewind": "^2.0.11",
     "react": "18.2.0",
-    "react-native": "0.72.6"
+    "react-native": "0.72.6",
+    "recoil": "^0.7.7"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.2.14",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "3.3.2",
     "typescript": "^5.1.3"
   },
   "private": true
